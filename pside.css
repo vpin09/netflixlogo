@@ -1,0 +1,52 @@
+
+.prism{
+	width: 1080px;
+	height: 480px;
+	position: relative;
+	margin: 100px;
+	transform-style:preserve-3d;
+	perspective: 1000px;
+	/*transform: rotateX(25deg) rotateY(-25deg);*/
+}
+.face{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 5%;
+	left: 10%;
+	background-color: black;
+	transition: all 1s;
+}
+.one{
+	width: 60px;
+	height: 300px;
+	position: absolute;
+	top:26%;
+	left: 53%;
+	background-color: rgb(177, 6, 15);
+	z-index: 1;
+	/*transform: rotateY(1deg);*/
+}
+.two{
+	width: 60px;
+	height: 300px;
+	position: absolute;
+	top:26%;
+	left: 58%;
+	background-color: rgb(229, 9, 20);
+	z-index: 2;
+	transform:  skew(20deg);
+	box-shadow:-5px 0px 15px #1E1E1E;
+	box-shadow:1px 5px 50px #1E1E1E;
+
+}
+.three{
+	width: 60px;
+	height: 300px;
+	position: absolute;
+	top:26%;
+	left: 63%;
+	background-color: rgb(177, 6, 15);
+	z-index: 1;
+}
+
